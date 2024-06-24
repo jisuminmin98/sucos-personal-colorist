@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+*{scroll-behavior:smooth;}
+body
+{background-color:#FDF8F9; /*màu nền trang web*/
+color:#757676;
+/*font-family: 'Quicksand', sans-serif;
+font-size:20px;*/
+font-style: normal;
+margin: 0;}
+
+/*h0{font-size: 98px}
+h1{font-size: 48px}
+h3{font-size: 28px}
+h2{font-size: 40px}
+h4{font-size: 24px}
+h1, h2, h3, h4, h5, h6
+{color: #00041A}
+*/
+/*p{line-height:1.5rem}*/
+
+.text-left{text-align:left}
+.text-center{text-align:center}
+.text-right{text-align:right}
+
+
+
+*{box-sizing: border-box}
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.container{width: 80%; margin: auto}
+
+/* gióng theo chiều dọc các box trong 1 row có flex */
+
+.align-items-center{align-items:center}
+.align-items-top{align-items:flex-start}
+.align-items-bottom{align-items:flex-end}
+
+/* gióng theo chiều ngang các box trong 1 row có flex */
+.justify-center{justify-content: center}
+.justify-start{justify-content:flex-start}
+.justify-end{justify-content:flex-end}
+.justify-between{justify-content:space-between}
+.justify-around{justify-content:space-around}
+
+[class*="col-"]
+{
+padding:0px;} /*buổi 3*/
+.img-100 {width: 100%; height: auto}
+.row{display: flex; flex-wrap: wrap;}
+
+/*.btn-primary
+{background: #fc98a4;
+	color: white;
+	padding: 10px 20px ; text-decoration: none; border-radius: 30px; font-family: 'Quicksand', sans-serif;
+font-size:16px;
+font-style:normal; font-weight:600}
+
+.btn-primary:hover
+{ background-color:#FFFFFF;
+color: #fc98a4;
+border-color: #fc98a4;}
+*/
+
+#vung1 {padding-top: 0px;
+
+color: #FFFFFF}
+
+nav .container {display: flex;
+align-items: center;
+justify-content: space-between;}
+
+.menu ul { margin: 0;
+padding:0;
+list-style: none;
+display: flex;}
+
+.menu ul li {position: relative}
+
+.menu ul li a { padding: 10px 25px; text-decoration: none; font-weight: bold; font-style: 1.2rem; color: #9E9E9E; font-size: 20px; }
+
+.menu ul li a:hover {border-bottom: 3px solid #fc98a4; color: #737171}
+
+nav .menu ul li a.active{color: #737171 }
+
+nav {padding-bottom: 10px; box-shadow: 0px 5px 10px rgba(0,0,100,0.3); padding-top: 15px; position: fixed; 
+width: 100%;  top: 0; left: 0; z-index: 9999; background-color: #fff}
+
+section {padding-top: 100px}
+
